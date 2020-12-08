@@ -1,0 +1,42 @@
+echo "------TESTE1------" > test1.txt;
+echo "" >> test1.txt;
+echo "Test1_1" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_1 --pipeline_config_path=Test1_1/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_2" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_2 --pipeline_config_path=Test1_2/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_3" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_3 --pipeline_config_path=Test1_3/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_4" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_4 --pipeline_config_path=Test1_4/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_5" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_5 --pipeline_config_path=Test1_5/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_6" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_6 --pipeline_config_path=Test1_6/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_7" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_7 --pipeline_config_path=Test1_7/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_8" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_8 --pipeline_config_path=Test1_8/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_9" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_9 --pipeline_config_path=Test1_9/faster_rcnn_inception_v2_coco.config;
+echo "" >> test1.txt;
+echo "Test1_10" >> test1.txt;
+htime python train.py --logtostderr --train_dir=Test1_10 --pipeline_config_path=Test1_10/faster_rcnn_inception_v2_coco.config;
+
+
+
+#echo "------TESTE1------" > test1.txt;
+#echo "" >> test1.txt;
+#echo "Test1_1" >> test1.txt;
+#htime python teste.py >> test1.txt;
+#echo "" >> test1.txt;
+#echo "Test1_2" >> test1.txt;
+#htime python teste_2.py >> test1.txt;
+#echo "" >> test1.txt;
