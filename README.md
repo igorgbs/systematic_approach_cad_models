@@ -12,4 +12,15 @@ The lib directories contain the .stl and .obj files used to generate the synthet
 
 ## Public Dataset
 
-The dataset of images and labels separated by objects can be accessed through the link: link kaggle
+The dataset of images and labels separated by objects can be accessed through on Kaggle
+
+
+Yanaha Oficial Images: https://www.kaggle.com/igorgbs/yamaha-oficial-images
+
+Volkswagen Oficial Images: https://www.kaggle.com/igorgbs/volkswagen-oficial-images
+
+Adblue Oficial Images: https://www.kaggle.com/igorgbs/adblue-oficial-images
+
+Fuelcap Oficial Images: https://www.kaggle.com/igorgbs/fuelcap-oficial-images
+
+Images Generated with Blender: https://www.kaggle.com/igorgbs/images-generated-blender
