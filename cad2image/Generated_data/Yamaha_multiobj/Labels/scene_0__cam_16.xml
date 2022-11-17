@@ -1,0 +1,26 @@
+<annotation>
+  <folder>Images</folder>
+  <filename>scene_0__cam_16</filename>
+  <path>/media/igor/home/igor/Documentos/Developments/Yamaha_Experiment_Plan/blender_generation/blender-2.79/Generated_data/Yamaha_multiobj/Images/</path>
+  <source>
+    <database>Yamaha_multiobj</database>
+  </source>
+  <size>
+    <width>960</width>
+    <height>540</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>yamaha_letters</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>451</xmin>
+      <ymin>242</ymin>
+      <xmax>504</xmax>
+      <ymax>254</ymax>
+    </bndbox>
+  </object>
+</annotation>
