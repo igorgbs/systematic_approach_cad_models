@@ -15,9 +15,10 @@ def clear_scene(delCam = 1, delLamp = 1):
             bpy.data.objects.remove(obj)
         elif delLamp == 1 and obj.name == "Lamp":
             bpy.data.objects.remove(obj)
-    for gp in bpy.data.groups:
-    	if gp != "RigidBodyWorld":
-    		bpy.data.groups.remove(gp)
+		
+    for coll in bpy.data.collections:
+    	if coll.name != "RigidBodyWorld":
+    		bpy.data.collections.remove(coll)
 
     for msh in bpy.data.meshes:
         bpy.data.meshes.remove(msh)
