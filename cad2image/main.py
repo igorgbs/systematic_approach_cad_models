@@ -89,7 +89,7 @@ for i_scn in range(n_scenes):
     ### Floor creation ###
     ######################
 
-    floor = bpy.ops.mesh.primitive_plane_add(radius=1, location=(0, 0, -1000))
+    floor = bpy.ops.mesh.primitive_plane_add(size=2, location=(0, 0, -1000))
     bpy.ops.transform.resize(value = floor_dimensions)
     obj = bpy.context.selected_objects[0]
     obj.name = "floor"
@@ -100,7 +100,7 @@ for i_scn in range(n_scenes):
     ### Support creation ###
     ########################
 
-    support = bpy.ops.mesh.primitive_plane_add(radius=1, location=(0, 0, 10))
+    support = bpy.ops.mesh.primitive_plane_add(size=2, location=(0, 0, 10))
     bpy.ops.transform.resize(value = support_dimensions)
     obj = bpy.context.selected_objects[0]
     obj.name = "support"
